@@ -1,0 +1,384 @@
+body {
+  margin: 0;
+  min-height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: "Spartan";
+  src: url(Components/font/LeagueSpartan-VariableFont_wght.ttf);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container {
+  width: 1111px;
+  margin: 0 auto;
+  
+}
+#root {
+  position: relative;
+}
+.NaviWrapper {
+  font-family: "Spartan";
+  display: flex;
+  justify-content: space-between;
+}
+.LogoDiv {
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.LogoDiv h2 {
+  font-family: 'Jost';
+  font-size: 25px;
+  text-align: center;
+}
+.NaviLOGO {
+  width: 24px;
+  height: 24px;
+}
+ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+li:hover {
+  text-decoration: underline;
+}
+.awardDiv {
+  position: relative;
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.awardDiv img {
+  width: 100%;
+}
+.awardWinningText {
+  position: absolute;
+  right: 45%;
+}
+.awardWinningSpan {
+  font-family: 'Jost';
+  width: 540px;
+  height: 165px;
+  font-size: 48px;
+  color: #FFFFFF;
+  
+}
+.awardWinningPara {
+  font-family: 'Jost';
+  margin-top: 50px;
+  width: 445px;
+  height: 78px;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.awardWinningButton {
+  margin-top: 50px;
+  width: 152px;
+  height: 56px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  line-height: 21.68px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-family: 'Jost'
+}
+.awardWinningButton:hover {
+  background-color: rgb(175, 162, 162);
+}
+.Homecontainer {
+  width: 1111px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.DesignWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+.twoPicDiv {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.Footercontainer {
+  
+  margin-top: auto;
+  position: relative;
+  width: 1440px;
+  height: 393px;
+  background-color: #1D1C1E;
+  margin: 0 auto;
+  color: white;
+}
+.Footercontainer .NaviWrapper {
+  position: relative;
+  top: 35%;
+  margin-left: 10%;
+  margin-right: 10%;
+  transform: translateY(-50%);
+  border-bottom: 1px solid #FFFFFF;
+  justify-content: space-between;
+  align-items: center;
+}
+footer {
+  margin-top: auto;
+  position: relative;
+  bottom: 0;
+  padding-bottom: 20px;
+}
+.StreetWrap {
+  width: 50%;
+  height: 100%;
+  background-color: blue;
+}
+.FooterCentralOfficeDiv {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 78px;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+}
+.FooterCentralOfficeDiv2 {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  height: 78px;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+}
+.ContactUs {
+  width: 200px;
+  height: 78px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.FooterBelowText {
+  font-family: "jost";
+  position: relative;
+  top: 50%;
+  width: 50%;
+  left: 4%;
+  display: flex;
+  justify-content: space-around;
+}
+.FooterBelowNav {
+  width: 200px;
+  position: relative;
+  left: 80%;
+  top: 40%;
+}
+.PassionateDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+}
+.PassionateDiv img {
+  width: 202px;
+  height: 202px;
+}
+.PassionateDiv h3 {
+  font-family: "Jost";
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 5px;
+}
+.PassionateDiv p {
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  font-size: 16px;
+  font-family: "Jost";
+  font-weight: 400;
+  text-align: Center;
+ 
+}
+.ExplanationWrapper {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 300px;
+}
+.resourcefulDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+}
+.ressourcefulDiv img {
+  width: 202px;
+  height: 202px;
+}
+
+.resourcefulDiv h3 {
+  font-family: "Jost";
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 5px;
+}
+.resourcefulDiv p {
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  font-size: 16px;
+  font-family: "Jost";
+  font-weight: 400;
+  text-align: Center;
+ 
+}
+.friendlyDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+}
+
+.friendlyDiv img {
+  width: 202px;
+  height: 202px;
+}
+
+.friendlyDiv h3 {
+  font-family: "Jost";
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 5px;
+}
+.friendlyDiv p {
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  font-size: 16px;
+  font-family: "Jost";
+  font-weight: 400;
+  text-align: Center;
+ 
+}
+.TalkAboutPageDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 292px;
+  background-color: #E7816B;
+  border-radius: 10px;
+  font-family: "Jost";
+}
+.TalkABoutButton {
+  width: 152px;
+  height: 56px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: "Jost";
+  line-height: 21.68px;
+  letter-spacing: 1px;
+}
+.TalkAboutPageDiv h2 {
+  width: 268px;
+  height: 98px;
+  font-weight: 500;
+  color: white;
+  font-size: 40px;
+  line-height: 40px;
+}
+.TalkAboutPageDiv p {
+  width: 459px;
+  height: 78px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+}
+.TalkAboutcontainer {
+  width: 1111px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 120%;
+  left: 11.5%;
+  transform: translateY(50%);
+}
+
+footer{
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+.DetailDiv {
+  width: 100%;
+  height: 326px;
+  background-color: #FDF3F0;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.canadaDetails span{
+  display:flex;
+ font-family: "Jost";
+ font-weight: 400;
+ font-size: 16px;
+ text-align:left;
+ color: #333136;
+}
+
+.detailsSpan {
+  align-items: center;
+  margin-right: 200px;
+  display: flex;
+  gap: 100px;
+}
+.DetaWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.DetaWrap h1 {
+  color: #E7816B;
+  font-family: "jost";
+}
+.DetaWrap {
+  width: 730px;
+  height: 326px;
+  background-color: #FDF3F0;
+  display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.canadaDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mapsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 100px;
+  margin-bottom: 300px
+}
