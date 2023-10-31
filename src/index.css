@@ -48,6 +48,10 @@ ul {
   gap: 20px;
   list-style-type: none;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 li:hover {
   text-decoration: underline;
 }
@@ -381,4 +385,347 @@ footer{
   gap: 30px;
   margin-top: 100px;
   margin-bottom: 300px
+}
+
+.WebDesignDiv {
+  width: 100%;
+  height: 252px;
+  background-color: #E7816B;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.WebDesignDiv span {
+  width: 450px;
+  height: 52px;
+  text-align: center;
+  font-family: "Jost";
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.WebDesignDiv h1 {
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 48px;
+  color: #FFFFFF;
+}
+.DesignPageBlocks {
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.DesignPageBlocks div{
+  width: 350px;
+  height: 478px;
+  background-color: #FDF3F0;
+}
+.DesignPageBlocks div{
+    text-align: center;
+
+}
+.DesignPageBlocks h3 {
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 5px;
+  color: #E7816B;
+}
+.DesignPageBlocks span {
+  font-family: "Jost";
+  font-size: 16px;
+  line-height: 26px;
+}
+.DesignTwoPicDiv {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+  margin-bottom: 400px;
+}
+
+.BigPic {
+  width: 100%;
+}
+
+.BigPic  img{
+  width: 100%;
+}
+.BigPiCText {
+  width: 100%;
+    position: absolute;
+    bottom: 45%;
+    text-align: center;
+}
+.designBigPicDiv {
+  position: relative;
+}
+.BigPiCText h2 {
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  transition: 1s all;
+}
+.BigPiCText h2:hover {
+  color: #E7816B;
+  transition: 1s all;
+}
+.BigPiCText span {
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21.68px;
+  letter-spacing: 5px;
+  color: #FFFFFF;
+  transition: 1s all;
+}
+.BigPiCText span:hover {
+  color: #E7816B;
+  transition: 1s all;
+  font-size: 20px;
+}
+.applePicDiv {
+  width: 100%;
+}
+.applePicDiv img {
+  width: 100%;
+}
+.ApplePicWrap {
+  position: relative;
+}
+.applePicText {
+  width: 100%;
+  position: absolute;
+  bottom: 35%;
+  text-align: center;
+
+}
+.applePicText h2 {
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 2px;
+  color: white;
+  transition: 1s all;
+}
+.applePicText h2:hover {
+  color: #E7816B;
+  transition: 1s all;
+  
+}
+.applePicText span {
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21.68px;
+  letter-spacing: 5px;
+  color: white;
+  transition: 1s all;
+}
+.applePicText span:hover {
+  color: #E7816B;
+  transition: 1s all;
+  font-size: 20px;
+}
+
+.GrapicDesignText H2 {
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 2px;
+  color: white;
+  transition: 1s all;
+}
+.GrapicDesignText h2:hover {
+  transition: 1s all;
+  color: #E7816B
+}
+.GrapicDesignText span {
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21.68px;
+  letter-spacing: 5px;
+  color: white;
+  transition: 1s all;
+  
+}
+.GrapicDesignText span:hover {
+  transition: 1s all;
+  color: #E7816B;
+  font-size: 20px;
+}
+.GrapicDesignPic {
+  width: 100%;
+}
+.GrapicDesignPic img {
+  width: 100%;
+}
+
+.GrapicDesignPicwrap {
+  position: relative;
+}
+.GrapicDesignText {
+  width: 100%;
+  position: absolute;
+  bottom: 35%;
+  text-align: center;
+
+}
+.GrapicDesignPageBlocksWrapper {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  margin-top: 200px;
+}
+.GrapicDesignPageBlocksWrapper div {
+  width: 350px;
+  height: 478px;
+  background-color: #FDF3F0;
+  border-radius: 20px;
+  text-align: center;
+}
+.GrapicDesignPageBlocksWrapper div h2 {
+  font-family: "Jost";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 5px;
+  color: #E7816B;
+}
+.GrapicDesignPageBlocksWrapper div span {
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 2%;
+}
+.GrapicDesignBorder {
+  width: 100%;
+  height: 252px;
+  background-color: #E7816B;
+  border-radius: 10px;
+  text-align: center;
+}
+.GrapicDesignBorder div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.GrapicDesignBorder h1 {
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+.GrapicDesignBorder span {
+  width: 350px;
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.MacDiv {
+  width: 541px;
+  height: 308px;
+  border-radius: 10px;
+}
+.MacDiv img {
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  border-radius: 10px;
+}
+.contactUsBlock {
+  width: 100%;
+  height: 480px;
+  background-color: #E7816B;
+  border-radius: 10px;
+}
+.contactUsText {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.contactUsText h1 {
+  margin-right: 100px;
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+
+.contactUsText p {
+  width: 400px;
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin-left: 100px;
+}
+.contactUsBlock {
+  display: flex;
+}
+.RegForm {
+  width: 50%;
+  height: 100%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  gap: 50px;
+  justify-content: center;
+}
+.form input {
+  width: 80%;
+  background-color: #E7816B;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+  height: 30px;
+  color: #FFFFFF;
+}
+.form input::-webkit-input-placeholder {
+  color: #FFFFFF;
+  opacity: 50%;
+  font-family: "Jost";
+}
+.message {
+  padding: 5% 0 ;
+}
+.form button {
+  width: 152px;
+  height: 56px;
+  border: none;
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21.68px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 1s all;
+  
+}
+.form button:hover {
+  color:#E7816B;
+  background-color: rgb(117, 109, 109);
+  transition: 1s all;
 }

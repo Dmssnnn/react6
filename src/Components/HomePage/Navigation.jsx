@@ -11,13 +11,13 @@ export default function Navigation () {
                 <nav>
                     <ul>
                         <li>
-                        <Link to="/Home">HOME</Link>
+                        <Link to="/">HOME</Link>
                         </li>
                         <li>
                         <Link>OUR COMPANY</Link>
                         </li> 
                         <li> <Link to="/Locations">LOCATIONS</Link></li> 
-                        <li>CONTACT</li> 
+                        <li> <Link to="/Contact">CONTACT</Link></li> 
                     </ul>
                 </nav>
             </div>

@@ -8,8 +8,9 @@ import HomeDesignWrap from "./Components/HomePage/HomePageDesignWrap"
 import Explanation from "./Components/HomePage/HomeExlpanation"
 import Footer from "./Components/HomePage/Footer"
 import WebDesignMaps from "./Components/WebDesignPage/WebDesignMaps.jsx"
-
+import GrapicDesignPage from "./Components/GrapicDesignPage/GrapicDesignPage"
 import Locations from "./Components/LocationsPage/Locations"
+import Contact from "./Components/ContactUsPage/Contact"
 import {
   createBrowserRouter,
   RouterProvider,
@@ -17,7 +18,7 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "/Home",
+    path: "/",
     element : (
       <>
         <Navigation />,
@@ -46,6 +47,27 @@ const router = createBrowserRouter([
         <Locations />
         <Footer />
         
+      </>
+    
+  },
+  {
+    path: "/GrapicDesignPage",
+    element : 
+      <>
+        <Navigation />,
+        <GrapicDesignPage />
+        <Footer />
+      </>
+    
+  },
+
+  {
+    path: "/Contact",
+    element : 
+      <>
+        <Navigation />,
+        <Contact/> 
+        {/* <Footer /> */}
       </>
     
   },
